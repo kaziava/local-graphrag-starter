@@ -5,6 +5,10 @@
 Minimal production-oriented GraphRAG stack: PyMuPDF + LangChain + Neo4j + Ollama.
 No cloud APIs, no data leaving your machine.
 
+> 🚧 **Early stage:** the stack is evolving and hasn't been tested on every
+> configuration yet. If something fails to start on your machine — open an Issue
+> or message me, I'll fix it fast. Feedback and bug reports are the best contribution.
+
 > 📢 Companion repo of the Telegram channel [@llmops_engineering](https://t.me/llmops_engineering) —
 > hardcore LLMOps breakdowns, benchmarks and production war stories.
 
