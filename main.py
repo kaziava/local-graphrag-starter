@@ -1,12 +1,12 @@
 """CLI entrypoint.
 
 Usage:
-    python -m app.main ingest data/report.pdf
-    python -m app.main ask "What was Apple's revenue in Q3 2024?"
+    python main.py ingest data/report.pdf
+    python main.py ask "What was Apple's revenue in Q3 2024?"
 """
 import argparse
 
-from .pipeline import ask, get_graph, ingest
+from pipeline import ask, get_graph, ingest
 
 
 def main() -> None:
