@@ -43,9 +43,11 @@ cp .env.example .env
 # 3. Build the graph from your PDF
 python main.py ingest data/report.pdf
 
+
 # 4. Ask
 python main.py ask "What was Apple's revenue in Q3 2024?"
 ```
+>  **Note:** You'll need to provide your own PDF file. Replace `data/report.pdf` with the path to your PDF document. For best results, use financial reports or documents with tables.
 
 Explore the graph in Neo4j Browser: http://localhost:7474 (`neo4j` / `password`)
 
